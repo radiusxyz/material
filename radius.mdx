@@ -1,0 +1,36 @@
+
+# Radius Overview
+
+[Radius](https://theradius.xyz) is a shared sequencing layer designed to decentralize sequencers on rollups and protect users from centralized actors. Specifically, it focuses on eliminating harmful MEV and censorship while providing a robust economic solution for rollups. 
+
+Encryption is a key component of Radius. By implementing an encrypted mempool on Madara, Radius removes the power of centralized sequencers in their ability to engage in malicious frontrunning, sandwiching, and censorship activities on StarkNet appchains. Written in Rust, the encrypted mempool utilizes delay encryption and secure cryptography to ensure fair ordering of transactions, creating a safe environment that benefits the ecosystem. 
+
+Together with Madara, Radius will accelerate the decentralization of rollups and further enhance the benefits that Madara offers in scaling blockchains.
+
+# Architecture
+
+<img src="https://github.com/radiusxyz/material/blob/main/architecture_for_madara.png" height="256" />
+
+# Roadmap
+
+**Phase 1. Encrypted Mempool on Madara**
+
+In this initial phase, Radius will implement encrypted mempool on Madara to protect the users of Madara appchains from potential harmful MEV and censorship risks. This implementation can be used independently of the external sequencing layer (below).
+
+**Phase 2. Sequencing Layer for Madara Appchains**
+
+During the second phase, Radius will provide pallets to seamlessly integrate Madara appchains with Radius external sequencing layer. 
+
+**Phase 3. Cross-rollup Interoperability**
+
+The third and final phase is focused on enabling cross-rollup interoperability. To address the challenges of rollup silos and fragmentation, appchains integrated with the external sequencing layer will be able to leverage the unique functionalities of the shared sequencer: cross-rollup arbitrage and messaging.
+
+# Resources
+
+For additional resources on Radius, explore the following links:
+
+- [Website](https://theradius.xyz)
+- [GitHub](https://github.com/radiusxyz)
+- [Documentation](https://docs.theradius.xyz/overview/introduction-to-radius)
+- [Twitter](https://twitter.com/radius_xyz)
+- [Discord](https://discord.com/invite/wdS6k4wz9H)
